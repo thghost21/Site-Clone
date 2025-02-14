@@ -1,5 +1,5 @@
 .fujiBg {
-  background-image: url(https://plus.unsplash.com/premium_photo-1661962643046-198516c2bec0?q=80&w=3264&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(https://images.unsplash.com/photo-1509023464722-18d996393ca8?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   min-height: 55dvh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,7 +32,12 @@
 
 .cardSpill {
   position: absolute;
-  top: 0px;
+  top: 556px;
+  right: 10px;
+}
+
+.maxSize {
+  max-height: 1rem;
 }
 
 
