@@ -13,15 +13,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+  <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
+    defer></script>
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 
-<body>
+<body class="debug">
   <header class="sticky-top">
     <div class="container-fluid ">
       <div class="row bg-danger shadow ">
-        <div class="col-12 d-flex align-items-center">
+        <div class="col-12 d-flex align-items-center ">
           <div class="mdi mdi-airplane fs-2"></div>
           <h1 class="dominetext">Travel Japan</h1>
         </div>
@@ -58,37 +60,41 @@
       </div>
       <!-- NOTE VISIT SECTION -->
     </section>
-    <div class="container-fluid">
-      <div class="row bg-danger dominetext shadow-lg ">
-        <div class="col-md-5 text-center position-relative">
-          <div class="p-4">
-            <h3>Why You Should visit!</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum corporis ad perspiciatis autem animi,
-              voluptatem, error beatae quasi laudantium, sapiente omnis libero soluta itaque architecto tenetur sint et
-              blanditiis illo.</p>
+    <!-- NOTE why visit -->
+    <section>
+      <div class="container-fluid">
+        <div class="row bg-danger dominetext shadow-lg ">
+          <div class="col-md-5 text-center position-relative">
+            <div class="p-4">
+              <h3>Why You Should visit!</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum corporis ad perspiciatis autem animi,
+                voluptatem, error beatae quasi laudantium, sapiente omnis libero soluta itaque architecto tenetur sint
+                et
+                blanditiis illo.</p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 bg-light py-5 shadow-lg rounded-3 cardSpill ">
-          <div>
-            <p><span class="mdi mdi-ferry px-2"></span>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <p><span class="mdi mdi-car px-2"></span>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <p><span class="mdi mdi-train px-2"></span>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <p><span class="mdi mdi-flash px-2"></span>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <div class="col-md-6 bg-light py-5 shadow-lg rounded-3 cardSpill ">
+            <div>
+              <p><span class="mdi mdi-ferry px-2"></span>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p><span class="mdi mdi-car px-2"></span>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p><span class="mdi mdi-train px-2"></span>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p><span class="mdi mdi-flash px-2"></span>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+            </div>
 
           </div>
-
         </div>
       </div>
-    </div>
+    </section>
     <!-- NOTE single Pic zone -->
     <section>
       <div class="container-fluid">
         <div class="row bg-light justify-content-evenly align-items-center py-5">
-          <div class="col-md-4 p-2">
+          <div class="col-md-4 p-2 order-2 order-md-1">
             <img class="img-fluid rounded-3" src="Japanarch.jpg" alt="japanese arch">
 
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 order-1 order-md-2">
             <div class="text-center">
               <div class="mdi mdi-airplane fs-1"></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt blanditiis tenetur laboriosam vel
@@ -105,9 +111,9 @@
     <!-- NOTE Three review section -->
     <section>
       <div class="container-fluid">
-        <div class="row justify-content-evenly smokebg py-5">
-          <div class="col-md-3 m-1 p-3 bg-success shadow-lg rounded-3">
-            <div>
+        <div class="row justify-content-evenly smokebg py-5 align-items-center">
+          <div class="col-md-3 my-5 p-3 bg-danger shadow-lg rounded-3 order-2 order-md-1 ">
+            <div class="m-1">
               <span class="fs-3">"</span>
             </div>
             <div class="text-center">
@@ -116,9 +122,9 @@
             </div>
 
           </div>
-          <div class="col-md-3 m-1 p-1 bg-success shadow-lg rounded-3">
-            <div>
-              <div class="text-center fs-1">
+          <div class="col-md-3 mb-5 py-5 bg-danger shadow-lg rounded-3 order-1 order-md-2 ">
+            <div class="m-1">
+              <div class="text-center  fs-1">
                 <span class="mdi mdi-star"></span>
                 <span class="mdi mdi-star"></span>
                 <span class="mdi mdi-star"></span>
@@ -131,8 +137,8 @@
             </div>
 
           </div>
-          <div class="col-md-3 m-1 p-3 bg-success shadow-lg rounded-3">
-            <div>
+          <div class="col-md-3 my-5 p-3 bg-danger shadow-lg rounded-3 order-3 order-md-3">
+            <div class="m-1">
               <span class="fs-3">"</span>
             </div>
             <div class="text-center">
