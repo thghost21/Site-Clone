@@ -32,7 +32,7 @@
 
 .cardSpill {
   position: absolute;
-  top: 600px;
+  top: 680px;
   right: 35px;
 }
 
@@ -40,7 +40,17 @@
   max-height: 1rem;
 }
 
+.pink {
+  background-color: #bd5b65;
+}
 
+.pinktext {
+  color: #bd5b65;
+}
+
+.pinkscreen {
+  color: #bd5b658c;
+}
 
 
 @media screen AND (max-width: 767.98px) {
